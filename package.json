@@ -7,9 +7,9 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "build": "expo export -p web --output-dir dist", // Este comando crea la carpeta 'dist'
+    "build": "expo export -p web --output-dir dist", 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist" // Este comando usa 'dist'
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://diego242004.github.io/BonAppetit",
   "dependencies": {
