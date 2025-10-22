@@ -26,11 +26,10 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro",
-      "output": "static"
+      "output": "static",
+      "baseUrl": "/BonAppetit/"
     },
-    "experiments": {
-      "baseUrl": "/BonAppetit/" 
-    },
+   
     "extra": {
       "eas": {
         "projectId": "04260be3-c1fd-420e-bb9e-bd3a3cb8fa30"
